@@ -1,0 +1,44 @@
+.title {
+    height: 100px;
+}
+
+.button {          /*use . when targeting class*/
+    width: 75px;
+    margin: 10px;
+
+}
+
+body {   /*use nothing when targeting whole section*/
+   padding: 30px;
+    background: #FF8008;  
+background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  
+background: linear-gradient(to right, #FFC837, #FF8008); 
+}
+
+
+#pokemon  {     /*use # when targeting ID*/
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+
+/*flexbox is a way to align child element within a parent element*/
+
+.center { 
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+
+}
+
+.poke {
+    width: 280px ;
+    height: 280px;
+    align-items: center;
+
+}
+

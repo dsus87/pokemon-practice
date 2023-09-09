@@ -1,0 +1,6 @@
+{
+    "search.useGlobalIgnoreFiles": true,
+    "search.useParentIgnoreFiles": true,
+    "markdown.editor.drop.copyIntoWorkspace": "never",
+    "markdown.editor.filePaste.copyIntoWorkspace": "never"
+}
